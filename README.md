@@ -36,6 +36,9 @@ A list of Visual Question Answering, Visual Dialog and Visual Reasoning papers.
 ### 2. Natural Images ###
 * **VQA-v2**
 * **GQA**
+* **DAQUAR**
+* **COCO-QA**
+* **VQA**
 
 
 ### 3. Videos ###
