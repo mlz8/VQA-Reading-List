@@ -1,4 +1,4 @@
-# VQA Paper #
+# VQA Papers #
 
 A list of Visual Question Answering, Visual Dialog and Visual Reasoning papers.
 
@@ -47,6 +47,10 @@ A list of Visual Question Answering, Visual Dialog and Visual Reasoning papers.
   * 4 to 8 frames per video
   * objects in 2D space with 19 possible colors and 33 possible shapes 
   * contains pointing and conditional (if and else) questions
+* **MovieQA** - [Movieqa: Understanding stories in movies through question-answering](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Tapaswi_MovieQA_Understanding_Stories_CVPR_2016_paper.pdf) - *Tapaswi, Makarand, Yukun Zhu, Rainer Stiefelhagen, Antonio Torralba, Raquel Urtasun, and Sanja Fidler.In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2016.*
+  * 15K questions about 408 movies
+  * multiple choice answers 
+  * additionally to the videos, it includes plots, subtitles and scripts  
 
 ### 4. Embodied VQA Datasets ###
 TODO
