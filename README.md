@@ -15,20 +15,26 @@ A list of Visual Question Answering, Visual Dialog and Visual Reasoning papers.
   * additionally to VQA datasets on natural images (DAQUAR, COCO-QA, VQA, FM-IQA, Visual Genome, Visual7W), an overview of datasets using clipart images is presented (abstract scenes, shapes) and knowledge base-enhanced datasets (KB-VQA and FVQA) 
 
 ## Datasets ##
-### Geometric Forms ###
+### 1. Geometric Forms ###
 * **CLEVR** - [Clevr: A diagnostic dataset for compositional language and elementary visual reasoning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Johnson_CLEVR_A_Diagnostic_CVPR_2017_paper.pdf) - Johnson, Justin, Bharath Hariharan, Laurens van der Maaten, Li Fei-Fei, C. Lawrence Zitnick, and Ross Girshick. Conference on Computer Vision and Pattern Recognition (CVPR). 2017.
+  * 100K images with 1M questions.
+  * in 3D space: 3 types of shapes (sphere, cube and cylinder), 2 sizes (small, large), 8 colors and 2 materials (metal, rubber)
+  * visual graph included for training and validation set (i.e., location and type of the forms and relationship between them: left, right, behind and in front)
 * **SHAPES** - [Neural Module Networks](http://openaccess.thecvf.com/content_cvpr_2016/papers/Andreas_Neural_Module_Networks_CVPR_2016_paper.pdf) - Andreas, Jacob, Marcus Rohrbach, Trevor Darrell, and Dan Klein. In Conference on Computer Vision and Pattern Recognition (CVPR). 2016. 
 * **Sort-of-CLEVR** - [A simple neural network module for relational reasoning](https://papers.nips.cc/paper/7082-a-simple-neural-network-module-for-relational-reasoning.pdf) - Santoro, Adam, David Raposo, David G. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, and Timothy Lillicrap. In Advances in neural information processing systems (NIPS). 2017.
 * **COG** - [A dataset and architecture for visual reasoning with a working memory](https://arxiv.org/pdf/1803.06092) - Yang, Guangyu Robert, Igor Ganichev, Xiao-Jing Wang, Jonathon Shlens, and David Sussillo. In European Conference on Computer Vision (ECCV). 2018.
 
-### 1. Natural Images ###
+### 2. Natural Images ###
 TODO
 
-### 2. Videos ###
+### 3. Videos ###
 TODO
 
-### 3. Embodied VQA Datasets ###
+### 4. Embodied VQA Datasets ###
+TODO
 
+### 5. Other ###
+TODO
 
 ## Global Emedding Techniques ##
 TODO
