@@ -20,18 +20,27 @@ A list of Visual Question Answering, Visual Dialog and Visual Reasoning papers.
   * 100K images with 1M questions.
   * in 3D space: 3 types of shapes (sphere, cube and cylinder), 2 sizes (small, large), 8 colors and 2 materials 
   * visual graph included for training and validation set (i.e., location and type of the forms and relationship between them: left, right, behind and in front). Download the predicted visual graph on the test set [here](https://cvhci.anthropomatik.kit.edu/~mhaurile/data/). 
-##  
+  
+&nbsp;
+&nbsp;
+
 
 * **SHAPES** - [Neural Module Networks](http://openaccess.thecvf.com/content_cvpr_2016/papers/Andreas_Neural_Module_Networks_CVPR_2016_paper.pdf) - *Andreas, Jacob, Marcus Rohrbach, Trevor Darrell, and Dan Klein. In Conference on Computer Vision and Pattern Recognition (CVPR). 2016. *
   * 15K questions on 64 images
   * 2D world in 3x3 grid with various instance types: 3 different colors (red, green, blue) and 3 shapes (circle, square and triangle)
-##  
+  
+&nbsp;
+&nbsp;
+  
 
 * **Sort-of-CLEVR** - [A simple neural network module for relational reasoning](https://papers.nips.cc/paper/7082-a-simple-neural-network-module-for-relational-reasoning.pdf) - *Santoro, Adam, David Raposo, David G. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, and Timothy Lillicrap. In Advances in neural information processing systems (NIPS). 2017.*
   * 10K images with 200K questions
   * 6 objects per image with 2 shape types (circle, square) and 6 different colors
   * 10 relational and 10 non-relational question templates
-##  
+
+&nbsp;
+&nbsp;
+
 
 * **COG** - [A dataset and architecture for visual reasoning with a working memory](https://arxiv.org/pdf/1803.06092) - *Yang, Guangyu Robert, Igor Ganichev, Xiao-Jing Wang, Jonathon Shlens, and David Sussillo. In European Conference on Computer Vision (ECCV). 2018.*
   * 4 to 8 frames per video
