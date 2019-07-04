@@ -46,7 +46,11 @@ A list of Visual Question Answering, Visual Dialog and Visual Reasoning papers.
 
 
 ### 3. Videos ###
-TODO
+
+* **COG** - [A dataset and architecture for visual reasoning with a working memory](https://arxiv.org/pdf/1803.06092) - *Yang, Guangyu Robert, Igor Ganichev, Xiao-Jing Wang, Jonathon Shlens, and David Sussillo. In European Conference on Computer Vision (ECCV). 2018.*
+  * 4 to 8 frames per video
+  * objects in 2D space with 19 possible colors and 33 possible shapes 
+  * contains pointing and conditional (if and else) questions
 
 ### 4. Embodied VQA Datasets ###
 TODO
@@ -54,18 +58,24 @@ TODO
 ### 5. Other ###
 TODO
 
-## Global Emedding Techniques ##
+## Methods ##
+
+### 1. Global Emedding Techniques ###
 TODO
 
-## Attention-Based Models ##
+### 2. Attention-Based Models ###
 TODO
 
-## Graph Nets ##
+### 3. Compositional Models ###
 TODO
 
-## Compositional Models ##
+### 4. Memory Networks ###
+TODO
 
-## Incorporating Knowledge-bases ##
+### 5. Graph Nets ###
+TODO
 
-## Embodied VQA ##
+### 6. Incorporating Knowledge-bases ###
+
+### 7. Embodied VQA ###
 
