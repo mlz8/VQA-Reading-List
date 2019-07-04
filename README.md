@@ -20,8 +20,6 @@ A list of Visual Question Answering, Visual Dialog and Visual Reasoning papers.
   * 100K images with 1M questions.
   * in 3D space: 3 types of shapes (sphere, cube and cylinder), 2 sizes (small, large), 8 colors and 2 materials 
   * visual graph included for training and validation set (i.e., location and type of the forms and relationship between them: left, right, behind and in front). Download the predicted visual graph on the test set [here](https://cvhci.anthropomatik.kit.edu/~mhaurile/data/). 
-  
-&nbsp;
 
 
 * **SHAPES** - [Neural Module Networks](http://openaccess.thecvf.com/content_cvpr_2016/papers/Andreas_Neural_Module_Networks_CVPR_2016_paper.pdf) - *Andreas, Jacob, Marcus Rohrbach, Trevor Darrell, and Dan Klein. In Conference on Computer Vision and Pattern Recognition (CVPR). 2016. *
