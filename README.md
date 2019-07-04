@@ -16,7 +16,10 @@ A list of Visual Question Answering, Visual Dialog and Visual Reasoning papers.
 
 ## Datasets ##
 ### Geometric Forms ###
-
+* **CLEVR** - [Clevr: A diagnostic dataset for compositional language and elementary visual reasoning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Johnson_CLEVR_A_Diagnostic_CVPR_2017_paper.pdf) - Johnson, Justin, Bharath Hariharan, Laurens van der Maaten, Li Fei-Fei, C. Lawrence Zitnick, and Ross Girshick. Conference on Computer Vision and Pattern Recognition (CVPR). 2017.
+* **SHAPES** - [Neural Module Networks](http://openaccess.thecvf.com/content_cvpr_2016/papers/Andreas_Neural_Module_Networks_CVPR_2016_paper.pdf) - Santoro, Adam, David Raposo, David G. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, and Timothy Lillicrap. In Advances in neural information processing systems (NIPS). 2017.
+* **Sort-of-CLEVR**
+* **COG**
 
 ### Natural Images ###
 
