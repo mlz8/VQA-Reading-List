@@ -3,14 +3,14 @@
 A list of Visual Question Answering, Visual Dialog and Visual Reasoning papers.
 
 ## Survey ##
-* [Survey of Visual Question Answering: Datasets and Techniques](https://arxiv.org/pdf/1705.03865) - *Gupta, Akshay Kumar. **arXiv** preprint arXiv:1705.03865. 2017. *
+* [Survey of Visual Question Answering: Datasets and Techniques](https://arxiv.org/pdf/1705.03865) - *Gupta, Akshay Kumar. **arXiv** preprint arXiv:1705.03865. 2017.*
   * overview of some VQA datasets and comparison of some techniques on the DAQUAR and VQA datasets.
   * description of attention-based models, neural module networks and knowledge base VQA
 * [Visual question answering: Datasets, algorithms, and future challenges](https://arxiv.org/abs/1610.01465) - *Kafle, Kushal, and Christopher Kanan. Computer Vision and Image Understanding (**CVIU**). 2017.*
    * overview of DAQUAR, COCO-QA, VQA, FM-IQA, Visual Genome, Visual7W, SHAPES
    * discussion of VQA metrics especially for open ended vs multiple choice
    * comparison of various networks on DAQUAR and COCO-QA
-* [Visual question answering: A survey of methods and datasets](https://arxiv.org/abs/1607.05910) -  *Wu, Qi, Damien Teney, Peng Wang, Chunhua Shen, Anthony Dick, and Anton van den Hengel. Computer Vision and Image Understanding (**CVIU**). 2017. *
+* [Visual question answering: A survey of methods and datasets](https://arxiv.org/abs/1607.05910) -  *Wu, Qi, Damien Teney, Peng Wang, Chunhua Shen, Anthony Dick, and Anton van den Hengel. Computer Vision and Image Understanding (**CVIU**). 2017.*
   * detailed description of neural module networks and dynamic memory networks
   * additionally to VQA datasets on natural images (DAQUAR, COCO-QA, VQA, FM-IQA, Visual Genome, Visual7W), an overview of datasets using clipart images is presented (abstract scenes, shapes) and knowledge base-enhanced datasets (KB-VQA and FVQA) 
 
@@ -42,15 +42,14 @@ A list of Visual Question Answering, Visual Dialog and Visual Reasoning papers.
 
 
 ### 3. Videos ###
-
-* **COG** - [A dataset and architecture for visual reasoning with a working memory](https://arxiv.org/pdf/1803.06092) - *Yang, Guangyu Robert, Igor Ganichev, Xiao-Jing Wang, Jonathon Shlens, and David Sussillo. In European Conference on Computer Vision (**ECCV**). 2018.*
-  * 4 to 8 frames per video
-  * objects in 2D space with 19 possible colors and 33 possible shapes 
-  * contains pointing and conditional (if and else) questions
 * **MovieQA** - [Movieqa: Understanding stories in movies through question-answering](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Tapaswi_MovieQA_Understanding_Stories_CVPR_2016_paper.pdf) - *Tapaswi, Makarand, Yukun Zhu, Rainer Stiefelhagen, Antonio Torralba, Raquel Urtasun, and Sanja Fidler.In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2016.*
   * 15K questions about 408 movies
   * multiple choice answers 
   * additionally to the videos, it includes plots, subtitles and scripts  
+* **COG** - [A dataset and architecture for visual reasoning with a working memory](https://arxiv.org/pdf/1803.06092) - *Yang, Guangyu Robert, Igor Ganichev, Xiao-Jing Wang, Jonathon Shlens, and David Sussillo. In European Conference on Computer Vision (**ECCV**). 2018.*
+  * 4 to 8 frames per video
+  * objects in 2D space with 19 possible colors and 33 possible shapes 
+  * contains pointing and conditional (if and else) questions
 
 ### 4. Embodied VQA Datasets ###
 TODO
