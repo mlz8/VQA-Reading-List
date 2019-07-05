@@ -37,7 +37,10 @@ A list of Visual Question Answering, Visual Dialog and Visual Reasoning papers.
 * **VQA-v2**
 * **GQA**
 * **DAQUAR**
-* **COCO-QA**
+* **COCO-QA** - [Exploring models and data for image question answering](http://papers.nips.cc/paper/5640-exploring-models-and-data-for-image-question-answering.pdf) - Ren, Mengye, Ryan Kiros, and Richard Zemel. In Advances in neural information processing systems (**NIPS**). 2015.
+  * generates questions from [MS-COCO](http://cocodataset.org/) captions using the Stanford parser 
+  * 69K images and 118K questions
+  * 4 types of questions: object (what), number, color and location (using the preposition "in")
 * **VQA**
 
 
