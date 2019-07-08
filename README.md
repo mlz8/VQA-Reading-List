@@ -63,15 +63,21 @@ TODO
 ## Methods ##
 
 ### 1. Global Emedding Techniques ###
-TODO
+* **Ask-your-neurons** - [Ask Your Neurons: A Neural-Based Approach to Answering Questions About Images](http://openaccess.thecvf.com/content_iccv_2015/papers/Malinowski_Ask_Your_Neurons_ICCV_2015_paper.pdf) - Mateusz Malinowski, Marcus Rohrbach, Mario Frit. In In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2015.
+  * image represented as a vector produced by a pre-trained CNN
+  * encodes the question using an LSTM
+  * after the "end" token is added into the LSTM, the LSTM starts generating the answer
+  * evaluated on DAQUAR
 
 ### 2. Attention-Based Models ###
-* **SAN** - [Stacked attention networks for image question answering](http://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Stacked_Attention_Networks_CVPR_2016_paper.pdf) - Yang, Zichao, Xiaodong He, Jianfeng Gao, Li Deng, and Alex Smola. In Conference on Computer Vision and Pattern Recognition (**CVPR**).
+* **SAN** - [Stacked attention networks for image question answering](http://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Stacked_Attention_Networks_CVPR_2016_paper.pdf) - Yang, Zichao, Xiaodong He, Jianfeng Gao, Li Deng, and Alex Smola. In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2016. 
   * question embedded using either an LSTM or a (1D) CNN. 
   * image represented using features of a pre-trained CNN
   * multi-step reasoning by attending to the image more than once (2 steps were proven best)
   * evaluated on DAQUAR, COCO-QA and VQA
 
+  
+  
 ### 3. Compositional Models ###
 TODO
 
