@@ -63,11 +63,19 @@ TODO
 ## Methods ##
 
 ### 1. Global Emedding Techniques ###
-* **Ask-your-neurons** - [Ask Your Neurons: A Neural-Based Approach to Answering Questions About Images](http://openaccess.thecvf.com/content_iccv_2015/papers/Malinowski_Ask_Your_Neurons_ICCV_2015_paper.pdf) - Mateusz Malinowski, Marcus Rohrbach, Mario Frit. In In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2015.
+* **Ask-your-neurons** - [Ask Your Neurons: A Neural-Based Approach to Answering Questions About Images](http://openaccess.thecvf.com/content_iccv_2015/papers/Malinowski_Ask_Your_Neurons_ICCV_2015_paper.pdf) - Mateusz Malinowski, Marcus Rohrbach, Mario Frit. In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2015.
   * image represented as a vector produced by a pre-trained CNN
   * encodes the question using an LSTM
   * after the "end" token is added into the LSTM, the LSTM starts generating the answer
   * evaluated on DAQUAR
+* [Learning to answer questions from image using convolutional neural network](https://arxiv.org/pdf/1506.00333.pdf) - Ma, Lin, Zhengdong Lu, and Hang Li. In Association for the Advancement of Artificial Intelligence (**AAAI**). 2016.
+  * image represented using a pre-trained CNN  (from fully-connected layer --> vector representation = D)
+  * question embedded using an 1D convolutional and maxpooling layers (representation=#words x D)
+  * a multi-modal convolution layer imployed to project the two representations into same space
+  * the multi-modal convolution layer has a kernel size of 3x1 
+  * each convolution operation gets as input two neighboring vectors from the question matrix and the image vector (input = 3xD)
+  * thus, the output of this layer is again a matrix (output = #words x H)
+  * evaluated on DAQUAR and COCO-QA
 
 ### 2. Attention-Based Models ###
 * **SAN** - [Stacked attention networks for image question answering](http://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Stacked_Attention_Networks_CVPR_2016_paper.pdf) - Yang, Zichao, Xiaodong He, Jianfeng Gao, Li Deng, and Alex Smola. In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2016. 
