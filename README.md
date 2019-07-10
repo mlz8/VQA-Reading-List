@@ -90,8 +90,16 @@ TODO
 TODO
 
 ### 4. Memory Networks ###
-TODO
-
+* **MAC** - [Compositional Attention Networks for Machine Reasoning](https://arxiv.org/pdf/1803.03067.pdf) - Hudson, Drew A., and Christopher D. Manning. In International Conference on Learning Representations (**ICLR**). 2018.
+  * Memory, Attention and Composition (MAC) network
+  * MAC cell contains: (1) a control unit, (2) a reading unit and a (3) writing unit
+  * control unit: attends to parts of the question
+  * reading unit: reads information from the memory (image representation)
+  * writing unit: integrates information into the memory state 
+  * image represented by CNN pre-trained on ImageNet, question embedded using a bilinear LSTM
+  * evaluated on CLEVR
+  
+  
 ### 5. Graph Nets ###
 TODO
 
