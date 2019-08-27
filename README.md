@@ -68,7 +68,7 @@ TODO
   * encodes the question using an LSTM
   * after the "end" token is added into the LSTM, the LSTM starts generating the answer
   * evaluated on DAQUAR
-* [Learning to answer questions from image using convolutional neural network](https://arxiv.org/pdf/1506.00333.pdf) - Ma, Lin, Zhengdong Lu, and Hang Li. In Association for the Advancement of Artificial Intelligence (**AAAI**). 2016.
+* [Learning to answer questions from image using convolutional neural network](https://arxiv.org/pdf/1506.00333.pdf) - Lin Ma, Zhengdong Lu, and Hang Li. In Association for the Advancement of Artificial Intelligence (**AAAI**). 2016.
   * image represented using a pre-trained CNN  (from fully-connected layer --> vector representation = D)
   * question embedded using an 1D convolutional and maxpooling layers (representation=#words x D)
   * a multi-modal convolution layer imployed to project the two representations into same space
@@ -76,6 +76,15 @@ TODO
   * each convolution operation gets as input two neighboring vectors from the question matrix and the image vector (input = 3xD)
   * thus, the output of this layer is again a matrix (output = #words x H)
   * evaluated on DAQUAR and COCO-QA
+* [Revisiting Visual Question Answering Baselines](https://arxiv.org/pdf/1606.08390.pdf) - Allan Jabri, Armand Joulin, and Laurens van der Maaten. In European Conference on Computer Vision (**ECCV**). 2016.
+  * TODO
+* **Multi-World** - [A multi-world approach to question answering about real-world scenes based on uncertain input](https://papers.nips.cc/paper/5411-a-multi-world-approach-to-question-answering-about-real-world-scenes-based-on-uncertain-input.pdf) - Mateusz Malinowski and Mario Fritz. In Neural Information Processing Systems (**NIPS**). 2014.
+  * TODO
+* [Exploring models and data for image question answering](https://arxiv.org/pdf/1505.02074.pdf) - Mengye Ren, Ryan Kiros, Richard S. Zemel. In Neural Information Processing Systems (**NIPS**). 2015.
+  * TODO
+
+
+
 
 ### 2. Attention-Based Models ###
 * **SAN** - [Stacked attention networks for image question answering](http://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Stacked_Attention_Networks_CVPR_2016_paper.pdf) - Yang, Zichao, Xiaodong He, Jianfeng Gao, Li Deng, and Alex Smola. In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2016. 
