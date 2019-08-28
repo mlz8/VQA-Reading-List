@@ -81,7 +81,10 @@ TODO
 * **Multi-World** - [A multi-world approach to question answering about real-world scenes based on uncertain input](https://papers.nips.cc/paper/5411-a-multi-world-approach-to-question-answering-about-real-world-scenes-based-on-uncertain-input.pdf) - Mateusz Malinowski and Mario Fritz. In Neural Information Processing Systems (**NIPS**). 2014.
   * TODO
 * [Exploring models and data for image question answering](https://arxiv.org/pdf/1505.02074.pdf) - Mengye Ren, Ryan Kiros, Richard S. Zemel. In Neural Information Processing Systems (**NIPS**). 2015.
-  * TODO
+  * image - using CNN and FC layers for embedding
+  * visual representation fed as the first hidden state into an LSTM
+  * words in the question passed on to the RNN as input as skip-gram vectors
+  * evaluated on DAQUAR and COCO-QA
 
 
 
