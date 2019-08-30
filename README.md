@@ -77,7 +77,12 @@ TODO
   * thus, the output of this layer is again a matrix (output = #words x H)
   * evaluated on DAQUAR and COCO-QA
 * [Revisiting Visual Question Answering Baselines](https://arxiv.org/pdf/1606.08390.pdf) - Allan Jabri, Armand Joulin, and Laurens van der Maaten. In European Conference on Computer Vision (**ECCV**). 2016.
-  * TODO
+  * input: triplet of question, answer and image
+  * question and answer represented using word2vec
+  * image - extracted from penultimate ResNet-101 layer
+  * features of the triplet concatenated and further used to tain an MLP to classify if the trilplet matches or not
+  * both categorical and binary cross entropy evaluated, binary works better
+  * evaluated on VQA (MC) and Visual7w (Telling)
 * **Multi-World** - [A multi-world approach to question answering about real-world scenes based on uncertain input](https://papers.nips.cc/paper/5411-a-multi-world-approach-to-question-answering-about-real-world-scenes-based-on-uncertain-input.pdf) - Mateusz Malinowski and Mario Fritz. In Neural Information Processing Systems (**NIPS**). 2014.
   * TODO
 * [Exploring models and data for image question answering](https://arxiv.org/pdf/1505.02074.pdf) - Mengye Ren, Ryan Kiros, Richard S. Zemel. In Neural Information Processing Systems (**NIPS**). 2015.
