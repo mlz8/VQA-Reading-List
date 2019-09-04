@@ -118,9 +118,13 @@ TODO
   
   
 ### 5. Graph Nets ###
+* **DQA-Net** - [A diagram is worth a dozen images](https://arxiv.org/pdf/1603.07396.pdf) - Aniruddha Kembhavi, Mike Salvato, Eric Kolve, Minjoon Seo, Hannaneh Hajishirzi, Ali Farhadi. In European Conference on Computer Vision (**ECCV**). 2016.
+  * TODO
 * **Graph VQA** - [Graph-Structured Representations for Visual Question Answering](http://zpascal.net/cvpr2017/Teney_Graph-Structured_Representations_for_CVPR_2017_paper.pdf) - Damien Teney, Lingqiao Liu, Antom van den Hengel. In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2017.
   * TODO
 * **RN** - [A simple neural network module for relational reasoning](http://papers.nips.cc/paper/7082-a-simple-neural-network-module-for-relational-reasoning.pdf) - Adam Santoro, David Raposo, David G. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap. In Neural Information Processing Systems (**NIPS**). 2017.
+  * TODO
+* **Soft Paths** - [It's not about the Journey; It's about the Destination: Following Soft Paths under Question-Guidance for Visual Reasoning](http://openaccess.thecvf.com/content_CVPR_2019/html/Haurilet_Its_Not_About_the_Journey_Its_About_the_Destination_Following_CVPR_2019_paper.html) - Monica Haurilet, Alina Roitberg, Rainer Stiefelhagen. In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2019.
   * TODO
 
 ### 6. Incorporating Knowledge-bases ###
