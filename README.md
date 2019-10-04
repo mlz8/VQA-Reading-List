@@ -83,8 +83,6 @@ TODO
   * features of the triplet concatenated and further used to tain an MLP to classify if the trilplet matches or not
   * both categorical and binary cross entropy evaluated, binary works better
   * evaluated on VQA (MC) and Visual7w (Telling)
-* **Multi-World** - [A multi-world approach to question answering about real-world scenes based on uncertain input](https://papers.nips.cc/paper/5411-a-multi-world-approach-to-question-answering-about-real-world-scenes-based-on-uncertain-input.pdf) - Mateusz Malinowski and Mario Fritz. In Neural Information Processing Systems (**NIPS**). 2014.
-  * TODO
 * [Exploring models and data for image question answering](https://arxiv.org/pdf/1505.02074.pdf) - Mengye Ren, Ryan Kiros, Richard S. Zemel. In Neural Information Processing Systems (**NIPS**). 2015.
   * image - using CNN and FC layers for embedding
   * visual representation fed as the first hidden state into an LSTM
@@ -105,6 +103,13 @@ TODO
   * question embedded using an LSTM and image using CNN
   * question-based configurable convolutional kernels are used to calculate the attention map
   * evaluated on COCO-QA, DAQUAR and VQA
+
+* **SMem** - [Ask, Attend and Answer: Exploring Question-Guided Spatial Attention for Visual Question Answering](https://arxiv.org/pdf/1511.05234.pdf) - Huijuan Xu and Kate Saenko. In European Conference on Computer Vision (**ECCV**). 2016.
+  * word guided attention mechanism: for each word an attention map is computed. then, for each location in the map the maximum is extracted
+  * this attention map is used to focus on parts of the image obtaining a global visual representation 
+  * S words are embedded and for each of them a confidence map over the image is calculated. To obtain the final attention map the maximum value of each pixel over the S maps is normalized using softmax. 
+  * evaluated on DAQUAR and VQA
+
   
 ### 3. Compositional Models ###
 TODO
