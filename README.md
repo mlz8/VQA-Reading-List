@@ -101,7 +101,10 @@ TODO
   * multi-step reasoning by attending to the image more than once (2 steps were proven best)
   * evaluated on DAQUAR, COCO-QA and VQA
 
-  
+* **ABC-CNN** - [ABC-CNN: An Attention Based Convolutional Neural Network for VisualQuestion Answering](https://arxiv.org/pdf/1511.05960.pdf) - Kan Chen, Jiang Wang, Liang-Chieh Chen, Haoyuan Gao, Wei Xu, Ram Nevatia. In Transactions of the Association for Computational Linguistics (**TAVL**). 2016. 
+  * question embedded using an LSTM and image using CNN
+  * question-based configurable convolutional kernels are used to calculate the attention map
+  * evaluated on COCO-QA, DAQUAR and VQA
   
 ### 3. Compositional Models ###
 TODO
