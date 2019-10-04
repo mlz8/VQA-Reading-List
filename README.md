@@ -119,7 +119,13 @@ TODO
   
 ### 5. Graph Nets ###
 * **DQA-Net** - [A diagram is worth a dozen images](https://arxiv.org/pdf/1603.07396.pdf) - Aniruddha Kembhavi, Mike Salvato, Eric Kolve, Minjoon Seo, Hannaneh Hajishirzi, Ali Farhadi. In European Conference on Computer Vision (**ECCV**). 2016.
-  * TODO
+  * RNN-based approach on a structured scene representation
+  * a diagram is represented as a graph where the edges show a connection between its components (e.g., arrow)
+  * in each time step the model receives as input an edge (the node pair and a confidence of the model that the connection exists)
+  * the output of each time step gives out a statement embedding 
+  * then, an attention module learns to focus on the most relevant statement between the set of statement embeddings obtained from the previous network.
+  * finally, the model computes a probability distribution over the multiple choice answers: the statement with the highest confidence is chosen for each multiple choice answer and then these confidences are normalized using softmax
+  
 * **Graph VQA** - [Graph-Structured Representations for Visual Question Answering](http://zpascal.net/cvpr2017/Teney_Graph-Structured_Representations_for_CVPR_2017_paper.pdf) - Damien Teney, Lingqiao Liu, Antom van den Hengel. In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2017.
   * TODO
 * **RN** - [A simple neural network module for relational reasoning](http://papers.nips.cc/paper/7082-a-simple-neural-network-module-for-relational-reasoning.pdf) - Adam Santoro, David Raposo, David G. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap. In Neural Information Processing Systems (**NIPS**). 2017.
