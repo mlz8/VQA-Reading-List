@@ -116,7 +116,8 @@ TODO
   * TODO 
 
 ### 3. Compositional Models ###
-TODO
+* **NMN**
+* **Stack-NMN**
 
 ### 4. Memory Networks ###
 * **MAC** - [Compositional Attention Networks for Machine Reasoning](https://arxiv.org/pdf/1803.03067.pdf) - Hudson, Drew A., and Christopher D. Manning. In International Conference on Learning Representations (**ICLR**). 2018.
