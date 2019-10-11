@@ -114,6 +114,7 @@ TODO
   * evaluated on DAQUAR and VQA
 * **FiLM** - [Film: Visual reasoning with ageneral conditioning layer](https://arxiv.org/pdf/1709.07871.pdf) - Ethan  Perez,  Florian  Strub,  Harm  De  Vries,  Vincent  Du-moulin, and Aaron Courville. In Association for the Advancement of Artificial Intelligence (**AAAI**). 2018.
   * TODO 
+* **MUTAN**
 
 ### 3. Compositional Models ###
 * **NMN**
