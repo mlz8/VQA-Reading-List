@@ -90,8 +90,6 @@ TODO
   * evaluated on DAQUAR and COCO-QA
 
 
-
-
 ### 2. Attention-Based Models ###
 * **SAN** - [Stacked attention networks for image question answering](http://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Stacked_Attention_Networks_CVPR_2016_paper.pdf) - Yang, Zichao, Xiaodong He, Jianfeng Gao, Li Deng, and Alex Smola. In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2016. 
   * question embedded using either an LSTM or a (1D) CNN. 
@@ -114,7 +112,9 @@ TODO
   * this attention map is used to focus on parts of the image obtaining a global visual representation 
   * S words are embedded and for each of them a confidence map over the image is calculated. To obtain the final attention map the maximum value of each pixel over the S maps is normalized using softmax. 
   * evaluated on DAQUAR and VQA
-  
+* **FiLM** - [Film: Visual reasoning with ageneral conditioning layer](https://arxiv.org/pdf/1709.07871.pdf) - Ethan  Perez,  Florian  Strub,  Harm  De  Vries,  Vincent  Du-moulin, and Aaron Courville. In Association for the Advancement of Artificial Intelligence (**AAAI**). 2018.
+  * TODO 
+
 ### 3. Compositional Models ###
 TODO
 
