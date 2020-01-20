@@ -108,13 +108,11 @@ TODO
   * S words are embedded and for each of them a confidence map over the image is calculated. To obtain the final attention map the maximum value of each pixel over the S maps is normalized using softmax. 
   * evaluated on DAQUAR and VQA
 * **MCB** - [Multimodal Compact Bilinear Poolingfor Visual Question Answering and Visual Grounding](https://arxiv.org/pdf/1606.01847.pdf) - Akira Fukui, Dong Huk Park, Daylen Yang, Anna Rohrbach, Trevor Darrell, and Marcus Rohrbach. In European Conference on Computer Vision (**ECCV**). 2016.
-  * word guided attention mechanism: for each word an attention map is computed. then, for each location in the map the maximum is extracted
-  * this attention map is used to focus on parts of the image obtaining a global visual representation 
-  * S words are embedded and for each of them a confidence map over the image is calculated. To obtain the final attention map the maximum value of each pixel over the S maps is normalized using softmax. 
-  * evaluated on DAQUAR and VQA
+  * TODO
 * **FiLM** - [Film: Visual reasoning with ageneral conditioning layer](https://arxiv.org/pdf/1709.07871.pdf) - Ethan  Perez,  Florian  Strub,  Harm  De  Vries,  Vincent  Du-moulin, and Aaron Courville. In Association for the Advancement of Artificial Intelligence (**AAAI**). 2018.
   * TODO 
 * **MUTAN**
+  * TODO 
 
 ### 3. Compositional Models ###
 * **NMN**
