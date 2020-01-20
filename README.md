@@ -88,8 +88,16 @@ TODO
   * visual representation fed as the first hidden state into an LSTM
   * words in the question passed on to the RNN as input as skip-gram vectors
   * evaluated on DAQUAR and COCO-QA
-
-
+* **MCB** - [Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding](https://arxiv.org/pdf/1606.01847.pdf) - Akira Fukui, Dong Huk Park, Daylen Yang, Anna Rohrbach, Trevor Darrell, and Marcus Rohrbach. In European Conference on Computer Vision (**ECCV**). 2016.
+  * TODO
+* **MLB**
+  * TODO
+* **MUTAN** - [MUTAN: Multimodal Tucker Fusion for Visual Question Answering](https://arxiv.org/pdf/1705.06676.pdf)
+  * question embedded by GRU, image encoded using pre-trained ResNet
+  * vector of question and image combined via bilinear interpolation (via a learnable 3D tensor) 
+  * since the 3D tensor necessitates too many parameters, Tucker decomposition employed decreasing the nr of params and the memory size
+  * the result of the bilinear interpolation is a single vector that is used in a fully connected layer to generate the final prediction
+  
 ### 2. Attention-Based Models ###
 * **SAN** - [Stacked attention networks for image question answering](http://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Stacked_Attention_Networks_CVPR_2016_paper.pdf) - Yang, Zichao, Xiaodong He, Jianfeng Gao, Li Deng, and Alex Smola. In Conference on Computer Vision and Pattern Recognition (**CVPR**). 2016. 
   * question embedded using either an LSTM or a (1D) CNN. 
@@ -107,12 +115,10 @@ TODO
   * this attention map is used to focus on parts of the image obtaining a global visual representation 
   * S words are embedded and for each of them a confidence map over the image is calculated. To obtain the final attention map the maximum value of each pixel over the S maps is normalized using softmax. 
   * evaluated on DAQUAR and VQA
-* **MCB** - [Multimodal Compact Bilinear Poolingfor Visual Question Answering and Visual Grounding](https://arxiv.org/pdf/1606.01847.pdf) - Akira Fukui, Dong Huk Park, Daylen Yang, Anna Rohrbach, Trevor Darrell, and Marcus Rohrbach. In European Conference on Computer Vision (**ECCV**). 2016.
-  * TODO
-* **FiLM** - [Film: Visual reasoning with ageneral conditioning layer](https://arxiv.org/pdf/1709.07871.pdf) - Ethan  Perez,  Florian  Strub,  Harm  De  Vries,  Vincent  Du-moulin, and Aaron Courville. In Association for the Advancement of Artificial Intelligence (**AAAI**). 2018.
+
+* **FiLM** - [Film: Visual reasoning with a general conditioning layer](https://arxiv.org/pdf/1709.07871.pdf) - Ethan  Perez,  Florian  Strub,  Harm  De  Vries,  Vincent  Du-moulin, and Aaron Courville. In Association for the Advancement of Artificial Intelligence (**AAAI**). 2018.
   * TODO 
-* **MUTAN**
-  * TODO 
+
 
 ### 3. Compositional Models ###
 * **NMN**
